@@ -7,9 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROT13 Cipher</title>
     <link href="style.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
 </head>
 
 <body>
+    <form>
+        <h1>ROT13 Cipher</h1>
+        <p>ROT13 (or ROT-13) is a very simple form of encryption cipher. It is a variant of a Caesar cipher. In it, the
+            alphabet is written in two lines, of 13 characters each. Encryption, and decryption is done by simply
+            switching the letters that are below each other. That way, A becomes N, B becomes O, and so on.</p>
+        <label for="input">Please enter a string below and hit Submit to encrypt it with ROT13</label><br>
+        <input type="text" id="input" name="input" required>
+        <input type="submit" id="submit">
+        <p id="result"></p>
+    </form>
     <script src="script.js"></script>
 </body>
 

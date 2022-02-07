@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 30vh 0;
+    color: #6a42cf;
+    font-size: 1.25rem;
+    background-color: #f1f7df;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+p {
+    margin: 15px auto;
+    max-width: 75%;
+}
+
+#input {
+    margin-top: 15px;
+}
+
+#result {
+    color: #6e550c;
+    font-weight: bolder;
+    overflow-wrap: break-word;
+}
+
+#submit {
+    cursor: pointer;
+    background-color: #c2edf2;
+}
+
+#submit:hover {
+    background-color: #6eebfa;
+}
